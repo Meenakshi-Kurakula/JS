@@ -1,0 +1,51 @@
+body{
+    background:url('https://media0.giphy.com/media/4MixZy6L7nBW8/giphy.webp?cid=ecf05e47wzm0z5vjzbcrjsq4xfafyjt71sa2w4qiztj4w3cw&rid=giphy.webp&ct=g') ;
+    background-size: cover;
+    
+}
+.main{
+    max-width: 30%;
+    max-height:1000vh;
+    background-color:beige;
+    text-align: center;
+    padding: auto;
+    
+    display: block;
+    margin-left: 0;
+
+    
+}
+#pets{
+    font-size: 60px;
+    font-weight: bold;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#petme{
+    border: 2px solid white;
+    margin-bottom:10px ;
+    margin-top: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    
+}
+#save{
+    border: 2px solid white;
+    margin-bottom:10px ;
+    margin-top: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+#count{
+    font-size: 100px;
+}
+#prev{
+    font-size: larger;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}

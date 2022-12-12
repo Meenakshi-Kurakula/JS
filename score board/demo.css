@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+body {
+    margin: 0;
+}
+.main{
+    background-color: navy;
+    border-radius: 5px;
+    max-width: 60vw;
+    color:white;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-left: 40px;
+    text-align: center; 
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+#hs, #gs{
+    font-family: "Silkscreen", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    background-color: black;
+    font-size:50px;
+    font-weight: bold;
+    color:red;
+    padding: 5px 10px ;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.score{
+    margin-right: 20px;
+}
+.btn{
+    margin-top:20px;
+    font-size: 10px;
+    color:grey;
+    margin-bottom: 40px;
+    margin-right: 5px;
+}
+#h1{
+    border:2px solid grey;
+    border-radius: 3px; 
+    margin-right: 3px;
+    font-size: small;
+}
+#game{
+    font-size: large;
+    margin-bottom: 40px;
+    
+    color:red;
+    font-weight: bold;
+    border: 2px dotted black;
+}
+
